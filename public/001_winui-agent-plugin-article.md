@@ -25,7 +25,7 @@ Windows のデスクトップアプリ開発は、環境構築が独特だった
 
 > **WinUI 3 とは？** Windows のモダンなデスクトップアプリを作るための最新UIフレームワークです。画面はコードで直接組み立てるのではなく、**XAML**（HTML/CSS のように、UIの構造と見た目を宣言的に書くマークアップ）で記述します。
 
-<iframe width="600" height="400" src="https://www.youtube.com/embed/7OK30hI5h-I" title="WinUIエージェントプラグインのご紹介：AIエージェントでWinUIアプリを構築しましょう" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<!-- <iframe width="600" height="400" src="https://www.youtube.com/embed/7OK30hI5h-I" title="WinUIエージェントプラグインのご紹介：AIエージェントでWinUIアプリを構築しましょう" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
 この記事では、**「1つの指示から動くポモドーロタイマーができるまで」** を通しで見ていきます。サクッと5分で読めます。
 
@@ -137,7 +137,8 @@ WinUI 3 でシンプルなポモドーロタイマーを作って。
 
 <!-- ▼起動画面のスクショ。撮影済みの実物を貼る。Light テーマ版も並べると良い -->
 <!-- ![ポモドーロタイマーの起動画面](images/001/pomodoro-dark.png) -->
-<img src="images/001/pomodoro-dark.png" width="33%" alt="ポモドーロタイマーの起動画面">
+<!-- <img src="images/001/pomodoro-dark.png" width="33%" alt="ポモドーロタイマーの起動画面"> -->
+<img src="https://github.com/ysk-hello/qiita-article/blob/main/public/images/001/pomodoro-dark.png" width="33%" alt="ポモドーロタイマーの起動画面">
 
 「作業中」フェーズの `25:00` が表示され、**開始**を押すとちゃんとカウントダウンが始まります
 （`25:00 → 24:46 …`）。指示から数分で、Fluent Design 準拠の動くアプリが手元に出来上がりました。
@@ -150,7 +151,8 @@ Windows の設定 → 個人用設定 → 色 で「モード」を **ライト*
 
 <!-- ▼Lightテーマでの起動画面スクショ -->
 <!-- ![ライトテーマでのポモドーロタイマー](images/001/pomodoro-light.png) -->
-<img src="images/001/pomodoro-light.png" width="33%" alt="ライトテーマでのポモドーロタイマー">
+<!-- <img src="images/001/pomodoro-light.png" width="33%" alt="ライトテーマでのポモドーロタイマー"> -->
+<img src="https://github.com/ysk-hello/qiita-article/blob/main/public/images/001/pomodoro-light.png" width="33%" alt="ライトテーマでのポモドーロタイマー">
 
 配色・コントラスト・アクセントカラーが自動で調整される点に注目してください。ここを自前で作り込もうとすると地味に手間ですが、`ThemeResource` を使った適切なXAMLをエージェントが最初から書いてくれるので、意識せずに対応できています。
 
@@ -183,7 +185,7 @@ Windows の設定 → 個人用設定 → 色 で「モード」を **ライト*
 
 ## 参考リンク
 
-<!-- - [WinUI エージェント プラグインの紹介動画（YouTube）](https://www.youtube.com/watch?v=7OK30hI5h-I) — プラグインの概要と動作イメージを短時間で掴める公式デモ -->
+- [WinUI エージェント プラグインの紹介動画（YouTube）](https://www.youtube.com/watch?v=7OK30hI5h-I) — プラグインの概要と動作イメージを短時間で掴める公式デモ
 - [WinUI エージェント プラグイン 公式ドキュメント（Claude Code 版）](https://learn.microsoft.com/ja-jp/windows/apps/develop/ai-assisted/winui-agent-plugin?tabs=claude-code) — 8スキルと winui-dev エージェントの正式な解説・導入手順
 - [microsoft/win-dev-skills（GitHub）](https://github.com/microsoft/win-dev-skills) — プラグイン本体のリポジトリ。スキルの中身やルールを読める
 - [ysk-hello/PomodoroTimer（GitHub）](https://github.com/ysk-hello/PomodoroTimer) — 本記事で作ったポモドーロタイマーのサンプルコード
