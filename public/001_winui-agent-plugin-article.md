@@ -138,7 +138,7 @@ WinUI 3 でシンプルなポモドーロタイマーを作って。
 <!-- ▼起動画面のスクショ。撮影済みの実物を貼る。Light テーマ版も並べると良い -->
 <!-- ![ポモドーロタイマーの起動画面](images/001/pomodoro-dark.png) -->
 <!-- <img src="images/001/pomodoro-dark.png" width="33%" alt="ポモドーロタイマーの起動画面"> -->
-<img src="https://github.com/ysk-hello/qiita-article/blob/main/public/images/001/pomodoro-dark.png" width="33%" alt="ポモドーロタイマーの起動画面">
+<img src="https://raw.githubusercontent.com/ysk-hello/qiita-article/main/public/images/001/pomodoro-dark.png" width="33%" alt="ポモドーロタイマーの起動画面">
 
 「作業中」フェーズの `25:00` が表示され、**開始**を押すとちゃんとカウントダウンが始まります
 （`25:00 → 24:46 …`）。指示から数分で、Fluent Design 準拠の動くアプリが手元に出来上がりました。
@@ -152,7 +152,7 @@ Windows の設定 → 個人用設定 → 色 で「モード」を **ライト*
 <!-- ▼Lightテーマでの起動画面スクショ -->
 <!-- ![ライトテーマでのポモドーロタイマー](images/001/pomodoro-light.png) -->
 <!-- <img src="images/001/pomodoro-light.png" width="33%" alt="ライトテーマでのポモドーロタイマー"> -->
-<img src="https://github.com/ysk-hello/qiita-article/blob/main/public/images/001/pomodoro-light.png" width="33%" alt="ライトテーマでのポモドーロタイマー">
+<img src="https://raw.githubusercontent.com/ysk-hello/qiita-article/main/public/images/001/pomodoro-light.png" width="33%" alt="ライトテーマでのポモドーロタイマー">
 
 配色・コントラスト・アクセントカラーが自動で調整される点に注目してください。ここを自前で作り込もうとすると地味に手間ですが、`ThemeResource` を使った適切なXAMLをエージェントが最初から書いてくれるので、意識せずに対応できています。
 
