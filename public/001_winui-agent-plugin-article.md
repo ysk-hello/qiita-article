@@ -188,4 +188,5 @@ Windows の設定 → 個人用設定 → 色 で「モード」を **ライト*
 - [WinUI エージェント プラグインの紹介動画（YouTube）](https://www.youtube.com/watch?v=7OK30hI5h-I) — プラグインの概要と動作イメージを短時間で掴める公式デモ
 - [WinUI エージェント プラグイン 公式ドキュメント（Claude Code 版）](https://learn.microsoft.com/ja-jp/windows/apps/develop/ai-assisted/winui-agent-plugin?tabs=claude-code) — 8スキルと winui-dev エージェントの正式な解説・導入手順
 - [microsoft/win-dev-skills（GitHub）](https://github.com/microsoft/win-dev-skills) — プラグイン本体のリポジトリ。スキルの中身やルールを読める
+- [WinUI 3とは？はじめての人向けに全体像・参考サイト・便利ツールをまとめて解説](https://ysk-hello.com/posts/winui-getting-started-guide/) — WinUIアプリ開発の入り口
 - [ysk-hello/PomodoroTimer（GitHub）](https://github.com/ysk-hello/PomodoroTimer) — 本記事で作ったポモドーロタイマーのサンプルコード
