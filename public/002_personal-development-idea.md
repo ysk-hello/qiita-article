@@ -5,7 +5,7 @@ tags:
   - 初心者
   - AI
   - 情報処理技術者試験
-private: true
+private: false
 updated_at: ''
 id: ''
 organization_url_name: null
